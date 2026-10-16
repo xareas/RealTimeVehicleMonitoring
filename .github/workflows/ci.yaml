@@ -1,0 +1,8 @@
+on:   #trigger
+  push:  #evento
+jobs:
+  hello-wordl:
+    runs-on: ubuntu-slim #maquina
+    steps:
+      - run: echo "Hola Mundo"
+
